@@ -1,9 +1,16 @@
 {
-  "versions": {
-    "1": "http://localhost:8000/",
-    "2": "https://placeholder.example.com/"
+  "version_config": {
+    "versions": {
+      "1": "http://localhost:8000/",
+      "2": "https://hypepulse.donod.site/"
+    },
+    "latest": "1",
+    "min_supported": "1",
+    "updated_at": "2026-03-24"
   },
-  "latest": "1",
-  "min_supported": "1",
-  "updated_at": "2026-03-23"
+  "vars_config": {
+    "match_schedules_cache_ttl_seconds": 1800,
+    "match_state_poll_interval_seconds": 60,
+    "notif_cooldown_seconds": 60
+  }
 }
